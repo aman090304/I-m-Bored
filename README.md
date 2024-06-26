@@ -39,5 +39,57 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/random-task-generator.git
-   cd random-task-generator
+   git clone hhttps://github.com/aman090304/I-m-Bored
+   cd random-I-m-Bored
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+3.**Start the deployment server:**
+   ```bash
+   npx nodemon index.js
+
+```
+## Usage
+
+1. **Open your browser** and navigate to `http://localhost:3000`.
+2. **View random tasks** or use filters to narrow down the task suggestions.
+
+## API Reference
+
+The project uses the Appbrewery API to fetch random tasks. The following endpoint is used:
+
+- **GET /tasks/random**: Retrieves a random task.
+- **GET /tasks?filter=value**: Retrieves tasks based on the specified filter.
+
+For more details on the API, please refer to the [Appbrewery API documentation](https://www.appbrewery.co/documentation).
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+
+3. **Make your changes** to the codebase.
+
+
+4. **Stage your changes** for commit:
+   ```bash
+   git add .
+   git commit -m 'Add some feature'
+
+5. **Push your changes:**
+   ```bash
+   git push origin feature/your-feature-name
+
+**Create a pull request**
+Open a pull request on GitHub:
+-Go to your repository on GitHub.
+-Switch to the branch where you made your changes.
+-Click on "New pull request."
+-Provide a title and description for your pull request.
+-Click on "Create pull request" to open it for review.
+
